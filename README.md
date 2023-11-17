@@ -1,4 +1,28 @@
-O algoritimo methodjulia foi escrito em liguagem Golang e calcula a raiz quadrada exata de um numero, raiz quadrada fracionada não é possível ser
-calculada pois a formula Matemática da Júlia não permite resultados fracionados.
+# MethodHulia
+MethodJulia, é um progama escrito em Go (golang), que utiliza o método de Regressão de Júlia, para calcular a Raiz Quadrada de números inteiros positivos.
 
-Para executar o algoritimo é muito simples, basta realizar o download do arquivo executavel e inserir via terminal o comando ./methodjulia.
+## Regressão de Júlia
+A Regressão de Júlia é uma fórmula inédita para o cálculo de raiz quadrada, desenvolvida pelo professor de Matemática da Unidade Cidade Nova do Colégio Santa Maria, Frederico Ferreira de Pinho Tavares, a partir de questionamentos de sua aluna, Júlia Helena Pimenta Ferreira.
+
+A Regressão de Júlia é uma fórmula recursiva, ou seja, ela se baseia na repetição de um mesmo cálculo para chegar ao resultado final. A fórmula é a seguinte:
+
+```xn = xn-1 - (xn-1)^2 / (2 * xn-2)```
+
+onde:
+
+- xn é a raiz quadrada de n
+- xn-1 é a estimativa da raiz quadrada de n, no passo anterior
+- xn-2 é a estimativa da raiz quadrada de n, no passo anterior ao anterior
+
+## Instalação
+### Linux
+### Windows
+## Como Compilar
+
+```Requisitos: golang 1.21+```
+
+```1. git clone https://github.com/erickmerys/MethodJulia.git```
+
+__2. cd MethodJulia__
+
+__3. go build .__
