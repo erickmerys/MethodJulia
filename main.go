@@ -28,9 +28,8 @@ func calcularRaizQuadrada(n int) (int, error) {
 func main() {
 	var num int
 
-	/* fmt.Print("Digite um numero para calcular a raiz quadrada: ")
-	fmt.Scan(&num) */
-	num = 1023
+	fmt.Print("Digite um numero para calcular a raiz quadrada: ")
+	fmt.Scan(&num)
 
 	if raiz, err := calcularRaizQuadrada(num); err != nil {
 		fmt.Println(err)
