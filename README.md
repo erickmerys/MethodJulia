@@ -23,6 +23,6 @@ onde:
 
 ```1. git clone https://github.com/erickmerys/MethodJulia.git```
 
-__2. cd MethodJulia__
+```2. cd MethodJulia```
 
-__3. go build .__
+```3. go build .```
