@@ -1,4 +1,4 @@
-# MethodHulia
+# MethodhJulia
 MethodJulia, é um progama escrito em Go (golang), que utiliza o método de Regressão de Júlia, para calcular a Raiz Quadrada de números inteiros positivos.
 
 ## Regressão de Júlia
